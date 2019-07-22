@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/about_background" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="60dp" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/imageView1"
+            android:layout_marginTop="18dp"
+            android:text="My Budget Trackr is an android application that will developed by our desire to assist the user in controlling the use of money or spending by daily or monthly. The concept of this application just like a personal assistant who will take care of all the activities and expenditure of an individual by notifying and records all transactions. With this application, each user can boost their economies. This application is not just an ordinary expense management program. This application helps you to keep track of your expenditures, earnings and manage your money more effectively."
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

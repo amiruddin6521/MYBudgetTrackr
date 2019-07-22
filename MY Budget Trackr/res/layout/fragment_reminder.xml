@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/reminder_background"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/addReminder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:background="#c4c96b"
+        android:src="@drawable/add_reminder" />
+
+    <ImageButton
+        android:id="@+id/listReminder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="#c4c96b"
+        android:src="@drawable/reminder_list" />
+
+</LinearLayout>
